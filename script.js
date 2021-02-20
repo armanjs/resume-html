@@ -10,11 +10,8 @@ function protect(){
   prompt("enter password to view grades");
   if (enteredpass == password){
     alert("correct password, redirecting");
-    return true;
   } else {
     alert("incorrect password");
-    return false;
-    //location.reload();
+      location.replace("main_resume.html");
   }
-
 }
