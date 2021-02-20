@@ -6,9 +6,8 @@ function submission(){
 
 function protect(){
   var password = "armans";
-  var enteredpass =
-  prompt("enter password to view grades");
-  if (enteredpass == password){
+  var enteredPass = prompt("enter password to view grades");
+  if (enteredPass == password){
     alert("correct password, redirecting");
   } else {
     alert("incorrect password");
