@@ -1,0 +1,16 @@
+p {
+  background-color: : lightblue;
+}
+
+.custom {
+  background-color: lightblue;
+}
+
+#imagesize{
+  width: 20%;
+  height: 50%;
+}
+
+.spacing {
+  margin: 10px;
+}
