@@ -1,19 +1,18 @@
 console.log("hello");
 
 function submission() {
-    alert("the button was pressed");
     let option = document.getElementById("ProjectSelection").value;
-    if (option === "project1"){
-      window.location.replace("project1.html");
-    } else if (option === "project2"){
-      window.location.replace("project2.html");
+    if (option === "project1") {
+        location.href = "project1.html";
+    } else if (option === "project2") {
+        location.href = "project2.html";
     }
     //let project = decument.forms["projects"]["project"].value;
     //location.replace(project);
 }
 
-function goBack(){
-  location.href = "resume.html";
+function goBack() {
+    location.href = "resume.html";
 }
 
 function protect() {
