@@ -2,11 +2,6 @@
     background-color: lightblue;
 }
 
-#imagesize {
-    width: 20%;
-    height: 50%;
-}
-
 .spacing {
     margin: 10px;
 }
@@ -15,4 +10,22 @@ body {
     width: 70%;
     margin: auto;
     max-width: 800px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.column {
+    flex-grow: 1;
 }
