@@ -5,13 +5,9 @@
     background-color: lightblue;
 }
 
-.spacing {
-    margin: 10px;
-}
-
 body {
     width: 70%;
-    margin: auto;
+    margin: 100px auto;
     max-width: 800px;
     font-family: 'Lato', sans-serif;
 }
@@ -34,7 +30,10 @@ body {
     flex-grow: 1;
 }
 
-
+select {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
 
 h1, h2, h3, h4 {
     font-family: 'Arvo', serif;
